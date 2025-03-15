@@ -179,7 +179,7 @@ function Rectangle(width, height) {
   const r = {};
   r.width = width;
   r.height = height;
-  r.getArea = function () {
+  r.getArea = function area() {
     return this.width * this.height;
   };
   return r;
